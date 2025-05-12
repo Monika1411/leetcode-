@@ -1,5 +1,5 @@
-class Solution:
-    def findEvenNumbers(self, digits: List[int]) -> List[int]:
+class Solution(object):
+    def findEvenNumbers(self, digits):
         count=Counter(digits)
         result=[]
         for num in range(100,1000,2):
